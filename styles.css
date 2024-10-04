@@ -9,6 +9,7 @@
     scroll-behavior:smooth;
     font-family:'Nunito',sans-serif;
 }
+/*The colors are changed to a new color palette themed.*/
 :root{
     --bg-color:#ffd700;
     --snd-bg-color:#ffd7;
