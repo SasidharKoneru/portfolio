@@ -10,10 +10,10 @@
     font-family:'Nunito',sans-serif;
 }
 :root{
-    --bg-color:#191f36;
-    --snd-bg-color:#262840;
-    --text-color:#fff;
-    --main-color:#59b2f4;
+    --bg-color:#ffd700;
+    --snd-bg-color:#ffd7;
+    --text-color:#009639;
+    --main-color:#b22222;
 
 }
 
@@ -195,6 +195,9 @@ span{
     margin: 2rem 0 3rem;
 }
 
+.education{
+    background: var(--bg-color);
+}
 .education h2{
     margin-bottom: 4rem;
 }
@@ -229,7 +232,9 @@ span{
 
 }
 
-
+.skills{
+    background: var(--snd-bg-color);
+}
 .skills h2{
     margin-bottom: 5rem;
 }
@@ -273,7 +278,7 @@ span{
 
 
 .portfolio{
-    background: var(--snd-bg-color);
+    background: var(--bg-color);
 }
 
 .portfolio h2{
@@ -311,7 +316,7 @@ span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.1),var(--main-color));
+    background: linear-gradient(rgba(190, 213, 19, 0.1),var(--snd-bg-color));
     display:flex;
     justify-content: center;
     align-items: center;
@@ -350,6 +355,10 @@ span{
     color:var(--snd-bg-color)
 }
 
+.contact{
+    background: var(--snd-bg-color);
+}
+
 .contact h2{
     margin-bottom: 3rem;
 }
@@ -373,7 +382,7 @@ span{
     padding:1.5rem;
     font-size:1.6rem;
     color:var(--text-color);
-    background: var(--snd-bg-color);
+    background: var(--bg-color);
     border: .8rem;
     margin: .7rem 0;
 }
@@ -403,7 +412,7 @@ span{
     align-items: center;
     flex-wrap: wrap;
     padding:2rem 9%;
-    background: var(--snd-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text{
@@ -426,7 +435,7 @@ span{
 
 .footer-iconTop a i {
     font-size: 2.4rem;
-    color: var(--snd-bg-color);
+    color: var(--bg-color);
 }
 
 /*BREAK POINT*/
